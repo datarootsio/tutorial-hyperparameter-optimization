@@ -2,7 +2,7 @@
 
 You all know that at dataroots, we are excellent data athletes. Compared to mainstream Olympics athletes, who train <u>with</u> weights, we evolved past that mere display of physical strength and started training <u>the</u> weights. In this way, Machine Learning Engineers train our models to achieve optimal performance on any task given to us. That’s how we shine! 
 
-![weight](https://media.giphy.com/media/KDQ25pahVfwGRvvT9X/giphy.gif?cid=ecf05e47z4pp5k1wkdxdbvvvev66kbx8qag6z8b2ml0vzyg2&rid=giphy.gif)
+<img src="https://media.giphy.com/media/KDQ25pahVfwGRvvT9X/giphy.gif?cid=ecf05e47z4pp5k1wkdxdbvvvev66kbx8qag6z8b2ml0vzyg2&rid=giphy.gif" height=200>
 
 Behind the shine and bling-bling, we have to admit that the performance of our models depends largely on how our model looks like, call it model infrastructure. This infrastructure is governed by a set of ‘hyperparameters’. Think about the depth of a tree, the number of layers and nodes in a neural network, weight regularization terms and even distributions, activation functions, and dropout probabilities. All of these choices need to be made before we can even start training our weights and these choices cannot be trained by the model itself. Therefore, choosing the best hyperparameters is one of the key challenges of many Machine Learning Engineer (PS: we do a lot more cool stuff, but we’ll talk about that in the next Homemade Muffin-meeting).
 
@@ -10,11 +10,11 @@ In the days of yore, we chose not to tune hyperparameters at all and rely on van
 
 By now, we are quite familiar with the *good ol’* grid search, random search and some of us might have heard about evolutionary algorithms using heuristics (based on birds and ants) or genetic approaches (based on NSFW). The problem with these algorithms are that (1) they take a *friggin’* long time as a whole new model needs to be trained for every possible combination of hyperparameters, (2) they do not ensure optimal hyperparameters as we can only hope to randomly pick the best, and (3) these algorithms do not really *learn* from previous trials as we can only take blind steps in the direction of where we hope the grass is greener. 
 
-![grass greener](https://media.giphy.com/media/A03pTCglKdaRG/giphy.gif?cid=ecf05e47zdbs5xfg8e3hy4ssl3ykc7chfptrevb6wt57azc6&rid=giphy.gif&ct=g)
+<img src="https://media.giphy.com/media/A03pTCglKdaRG/giphy.gif?cid=ecf05e47zdbs5xfg8e3hy4ssl3ykc7chfptrevb6wt57azc6&rid=giphy.gif&ct=g" height=150>
 
 Before we can prance through green meadows with flowers in our hair, we need to come up with an approach that gives us a flexible and robust approach to effectively and efficiently find the best hyperparameters in the configuration space… in a fast and preferably cheap way. When confronted with a seemingly impossible problem, we all know that one guy that says: “Let’s go Bayesian”. 
 
-![](https://media.giphy.com/media/l378BzHA5FwWFXVSg/giphy.gif?cid=ecf05e47t6z632ky9je9iafd6s0v9xs7md2qsuovl7sat2gl&rid=giphy.gif&ct=g)
+<img src="https://media.giphy.com/media/l378BzHA5FwWFXVSg/giphy.gif?cid=ecf05e47t6z632ky9je9iafd6s0v9xs7md2qsuovl7sat2gl&rid=giphy.gif&ct=g" height=150>
 
 Honoring the true Bayesian spirit, allow me to make things easy for you:
 
@@ -35,7 +35,9 @@ Remember I started of with talking about athletics (if not, scroll up)? Well, in
 I explain all of this, including a tutorial using the Optuna package, in our [Rootlabs@Lunch on Practical Hyperparameter Optimisation](https://www.youtube.com/watch?v=hboCNMhUb4g).
 
 You can also try this notebook in Google Colab.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fNzrF96E-Uhexdd0mFITsp-YpWZ2Mzwa)
 
 You can find much more information on the [Optuna](https://optuna.readthedocs.io/en/stable/) package.
-![Optuna Logo](https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png)
+
+<img src="https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png" width=500>
