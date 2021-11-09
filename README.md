@@ -44,7 +44,7 @@ I explain all of this, including a tutorial using the Optuna package, in our [Ro
 You can also try this notebook in Google Colab <a href="https://colab.research.google.com/drive/1fNzrF96E-Uhexdd0mFITsp-YpWZ2Mzwa" target="_blank" rel="noopener noreferrer"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>.
 
 
-<a href="#" onclick='window.open("https://colab.research.google.com/drive/1fNzrF96E-Uhexdd0mFITsp-YpWZ2Mzwa");'><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>.
+<a href="javascript:void(0);" onclick="window.open('https://colab.research.google.com/drive/1fNzrF96E-Uhexdd0mFITsp-YpWZ2Mzwa', ''); return false"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>.
 
 You can find much more information on the [Optuna](https://optuna.readthedocs.io/en/stable/) package.
 
