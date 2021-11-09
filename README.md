@@ -41,9 +41,7 @@ Remember I started of with talking about athletics (if not, scroll up)? Well, in
 
 I explain all of this, including a tutorial using the Optuna package, in our [Rootlabs@Lunch on Practical Hyperparameter Optimisation](https://www.youtube.com/watch?v=hboCNMhUb4g).
 
-You can also try this notebook in Google Colab.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fNzrF96E-Uhexdd0mFITsp-YpWZ2Mzwa)
+You can also try this notebook in Google Colab <a href="https://colab.research.google.com/drive/1fNzrF96E-Uhexdd0mFITsp-YpWZ2Mzwa" target="blank"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>.
 
 You can find much more information on the [Optuna](https://optuna.readthedocs.io/en/stable/) package.
 
